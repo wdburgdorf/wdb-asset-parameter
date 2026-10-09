@@ -8,7 +8,7 @@
  * Author URI: 	https://www.webdesign-burgdorf.ch/
  * Plugin URI: 	https://github.com/wdburgdorf/wdb-asset-parameter
  * License: 		GPL2
- * Last Update:	2026-05-07
+ * Last Update:	2026-10-09
  */
 
 
