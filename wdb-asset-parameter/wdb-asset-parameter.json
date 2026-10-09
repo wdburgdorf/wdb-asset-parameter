@@ -1,19 +1,19 @@
 {
 	"name": "WDB Asset Parameter",
-	"version": "1.0",
+	"version": "1.0.2",
 	"download_url": "https://www.webdesign-burgdorf.ch/wp-content/uploads/plugins/wdb-asset-parameter.zip",
 
 	"homepage": "https://www.webdesign-burgdorf.ch",
 	"requires": "6.9",
 	"tested": "6.9",
-	"last_updated": "2025-06-24 16:17:00",
-	"upgrade_notice": "First release",
+	"last_updated": "2026-05-07 15:03:00",
+	"upgrade_notice": "Initial release - testing first update",
 
 	"author": "Ralf Longwitz, Webdesign Burgdorf",
 	"author_homepage": "https://www.webdesign-burgdorf.ch",
 
 	"sections": {
-		"description": "Appends a parameter "wap" to the end of every CSS and JS URL on frontend pages, thus preventing caching.",
+		"description": "Appends a parameter \"wap\" to the end of every CSS and JS URL on frontend pages, thus preventing caching.",
 		"installation": "Upload and activate. There are no settings.",
 		"changelog": "Changelog. <p>Still the first version.</p>",
 		"custom_section": "This is a custom section labeled 'Custom Section'."
