@@ -1,9 +1,8 @@
 <?php
 /*
  * Plugin Name: WDB Asset Parameter
- * Plugin URI:	https://www.webdesign-burgdorf.ch/
  * Description:	Appends a parameter "wap" to the end of every CSS and JS URL on frontend pages, thus preventing caching
- * Version: 		1.0.2
+ * Version: 		1.0.6
  * Author: 			Ralf Longwitz, Webdesign Burgdorf
  * Author URI: 	https://www.webdesign-burgdorf.ch/
  * Plugin URI: 	https://github.com/wdburgdorf/wdb-asset-parameter
@@ -11,18 +10,17 @@
  * Last Update:	2026-10-09
  */
 
-
-require_once 'plugin-update-checker/plugin-update-checker.php';
+require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
-
-$wdb_my_plugin_update_checker = PucFactory::buildUpdateChecker(
+$myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://github.com/wdburgdorf/wdb-asset-parameter',
 	__FILE__,
 	'wdb-asset-parameter'
 );
-// Use GitHub releases/assets for updates.
-$wdb_my_plugin_update_checker->getVcsApi()->enableReleaseAssets('/\.zip($|[?&#])/i');
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
 
 // Function to append the parameter
 function append_x_parameter($src) {

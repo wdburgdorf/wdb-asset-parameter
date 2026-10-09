@@ -1,10 +1,10 @@
 === WDB Asset Parameter ===
 Contributors: wdburgdorf
 Tags: cache busting, css, js, assets, performance
-Requires at least: 7.0
-Tested up to: 7.1
+Requires at least: 6.0
+Tested up to: 7.1.3
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.6
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,7 +61,7 @@ Currently the exclusion list is defined in the plugin source code. You can edit 
 
 == Changelog ==
 
-= 1.0.2 =
+= 1.0.3 =
 - plugin updater updated
 
 = 1.0.1 =
