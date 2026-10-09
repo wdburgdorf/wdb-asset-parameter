@@ -61,6 +61,9 @@ Currently the exclusion list is defined in the plugin source code. You can edit 
 
 == Changelog ==
 
+= 1.0.2 =
+- plugin updater updated
+
 = 1.0.1 =
 - Initial release - testing update
 
